@@ -1,31 +1,3 @@
-# Xenon Stack Assesment 
-
-- Uses flash messages using Css
-- added authentication that contact us can only be seen by authenticated users only using middleware
-- passport is used as autheication middleware
-- its a session based authentication
-- got dynamic data i.e name of person on navbar
-- person cannot access Home page but if he wants to access other it will need autentication.
-- created frontend using html , css , js , jquery , boostrap.
-- ejs is used as a template engine to display dynamic data like username on home page after login.
-- session are created on mongo db.
-- Proper middleware is used for authentication.
-- owl caraousel is used.
-- contact us form data is stored in model contact in mongo db .
-- aslo used flash messages to display success messages to the user after successfull contact us form .
-
-
-- Bootstrap is used. 
-- fontawesome  and bootrsap icons are  used for fonts.
-- owl slider is used on home page
-- animate css is used to animate the elements.
-- swiper slider  is used for website.
-
-- isotope js
-- counter js
-- custom js
-jquery used in frontend.
-
 
 # Xenon Stack Assesment 
 
@@ -102,23 +74,30 @@ If the installation was successful, you should be able to run the following comm
 - Flash messages are implemented to inform user about wrong password, User Already Exist etc.
 
 !["show_name"](./public/assets/images/contact_with_flash.png)
+
+
 ## Responsive Frontend Using HTML, CSS, JS , Bootstrap
 
 ### Home Page
 !["show_name"](./public/assets/images/home_responsive.png)
+!["show_name"](./public/assets/images/home%20with%20username.png)
 
 ### Services
+!["show_name"](./public/assets/images/services_page.png)
+!["show_name"](./public/assets/images/services_responsive.png)
 
 
 ### Our Work Page
 !["show_name"](./public/assets/images/responsive%20work.png)
+!["show_name"](./public/assets/images/work_page.png)
 
 ### Team
+!["show_name"](./public/assets/images/Team_page.png)
+!["show_name"](./public/assets/images/responsive%20team.png)
 
 
 ### Contact Us
 !["show_name"](./public/assets/images/contact_with%20_info.png)
-
 !["show_name"](./public/assets/images/responsive%20contact.png)
 
 ## Contact Us form Stores data in Contact-form Collection in Mongo DB.
@@ -128,3 +107,5 @@ If the installation was successful, you should be able to run the following comm
 
 
 
+# Thanks Would Love to hear Suggestion 
+- Harkirat Singh : hs3188248@gmail.com
