@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* ------------Navbar Css---------------- */
+
+body {
+    /* background: url('../images/back1.jpg'); */
+    /* background-color: #3a8693; */
+    /* background-color: rgb(214, 214, 214); */
+    /* background-color: hwb(255deg 92% 0%); */
+}
+
+.bc {
+    background: transparent;
+}
+
+.logo-img {
+    height: 30px;
+}
+
+.nav-item a:hover {
+    color: #7b70c5;
+    text-decoration: 1px underline;
+}
+
+.nav-item {
+    border-radius: 10px !important;
+}
+
+.btn-color {
+    background: #d8672b !important;
+    color: white;
+}
+
+.btn-color:hover {
+    background-color: black !important;
+    color: #d8672b;
+}
+
+
+/* --------------------- Home Page(Main Content) --------------- */
+
+.box {
+    border-radius: 10px;
+    /* background-color: aqua; */
+    /* box-shadow: 0px 0px 25px 2px #d8672b; */
+    /* box-shadow: 0px 0px 30px 2px aqua; */
+    /* background: white; */
+}
+
+.home hr {
+    width: 95% !important;
+    margin-left: 12px;
+}
+
+.home h3 {
+    text-align: center;
+}
+
+.custom-btn {
+    color: #d8672b;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+}
+
+
+/* 14 */
+
+.btn-14 {
+    background: #d8672b;
+    border: none;
+    z-index: 1;
+}
+
+.btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: white;
+    background-image: linear-gradient(315deg, white 0%, white 74%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5);
+    transition: all 0.3s ease;
+}
+
+.btn-14:hover {
+    color: #d8672b;
+}
+
+.btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.btn-14:active {
+    top: 2px;
+}
+
+.btn-light {
+    border: 2px solid lightgray;
+    /* background-color: #d8672b; */
+    /* color: white; */
+    font-family: 'Baloo 2', cursive;
+    font-size: 13.5px;
+    /* padding: 6px 6px; */
+}
+
+.btn-light {
+    border: 2px solid gray;
+    /* background-color: #d8672b; */
+    /* color: white; */
+    font-family: 'Baloo 2', cursive;
+    font-size: 14px;
+    padding: 6px 6px;
+}
+
+.btn-light:hover {
+    /* background-color: rgb(38, 81, 81); */
+    border: 2px solid #d2cefc;
+    background-color: #d2cefc;
+    color: black;
+}
+
+
+/* --------------------- Subject 1(Content) --------------------- */
+
+subject-details-table tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-style: none !important;
+}
+
+.box2 {
+    background-color: white;
+    box-shadow: 0px 10px 10px -5px rgb(93, 93, 93);
+    border-radius: 10px;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.table-hover tr:hover {
+    /* border-style: solid !important; */
+    box-shadow: inset 0 0 0 9999px #d2cefc !important;
+}
+
+.attendence-table td {
+    border-style: solid !important;
+}
+
+.attendence-table th {
+    background-color: #d2cefc!important;
+}
+
+#table {
+    border-radius: 5px;
+}
+
+.attendence-table th,
+.attendence-table td {
+    text-align: center;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #d2cefc;
+    /* background-color: #80d6ff; */
+}
+
+
+/* .table-striped th {
+    /* background-color: #ffa980 !important; */
+
+
+/* background-color: #7b70c5 !important; */
+
+
+/* } */
+
+*/ #buttons input {
+    background-color: white;
+    margin: 0px 2px;
+    border: 2px solid lightgray;
+    /* border: 2px solid #d8672b; */
+    /* background-color: #d8672b; */
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    font-size: 14px;
+    box-shadow: #91b0b3;
+    /* padding: 6px 6px; */
+}
+
+#buttons input:hover {
+    border: 2px solid #d2cefc;
+    background-color: #d2cefc;
+    color: black;
+}
+
+
+/* -------------------ViewAttendenceTeacher------------------- */
+
+.list-students {
+    height: 65vh;
+    overflow: scroll;
+}
+
+.box3 {
+    /* background: white; */
+    border-radius: 10px;
+}
+
+.teacher-attendence-wrapper {
+    justify-content: space-evenly;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.custom-pad {
+    padding: 5px 5px;
+}
+
+
+/* -------------------MarkAttendenceTeacher------------------- */
+
+.container {
+    padding-bottom: 10px;
+}
+
+
+/* .box {
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+    box-shadow: ;
+} */
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 10px;
+}
+
+.box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.dropzone-wrapper {
+    border: 2px dashed #91b0b3;
+    color: #92b0b3;
+    position: relative;
+    height: 150px;
+}
+
+.dropzone-desc {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 40%;
+    top: 50px;
+    font-size: 16px;
+}
+
+.dropzone,
+.dropzone:focus {
+    position: absolute;
+    outline: none !important;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+    background: #ecf0f5;
+}
+
+.preview-zone {
+    text-align: center;
+}
+
+.preview-zone .box {
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.markAtt {
+    background-color: #7b70c5d1;
+}
+
+
+/* -------------------AboutUs------------------- */
+
+.aboutProject {
+    text-align: justify;
+}
+
+.heading {
+    text-align: center;
+}
+
+
+/* -------------------AboutUs------------------- */
+
+.form-control {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid lightgrey;
+    border-radius: 2px;
+}

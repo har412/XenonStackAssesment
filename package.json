@@ -1,0 +1,38 @@
+{
+  "name": "Xenon Stack Round 2 Assesment",
+  "version": "1.0.0",
+  "description": "Xenon Stack Round 2 Assesment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.3",
+    "form-data": "^4.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^5.7.5",
+    "multer": "^1.4.5-lts.1",
+    "node-popup": "^0.1.14",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "store": "^2.0.12",
+    "twilio": "^3.83.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
